@@ -54,7 +54,6 @@ function calcularResumo(usuarios) {
     alert('Média dos IMCs dos usuários: ' + mediaIMC.toFixed(2));
 }
 
-// Coleta de dados
 let quantidadeUsuarios = prompt('Digite a quantidade de usuários que serão avaliados:');
 let usuarios = [];
 
@@ -63,5 +62,4 @@ for (let i = 1; i <= quantidadeUsuarios; i++) {
     usuarios.push(usuario);
 }
 
-// Exibe os resultados finais
 calcularResumo(usuarios);
